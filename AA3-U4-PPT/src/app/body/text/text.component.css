@@ -1,0 +1,32 @@
+.textopri {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.card-title {
+    color:rgb(139, 141, 141);
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.card1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.card2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.card3 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.dolar {
+    color: black;
+    font-size: 200%;
+    font-weight: 600;
+}
+
+button{
+    width: 100%;
+}

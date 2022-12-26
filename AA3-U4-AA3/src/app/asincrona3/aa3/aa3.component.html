@@ -1,0 +1,29 @@
+
+    <section class="container">
+
+        <section class="aa3"> 
+        
+                <h1 class="display-4"> FRAMEWORK ANGULAR</h1>
+            
+            <br>
+
+                <section class="d-flex justify-content-center">
+                    <input type="text" #nombrec>
+                    <button type="button" class="btn btn-circle btn-xl" (click)="addCurso(nombrec.value)">Add</button>
+                </section>
+
+            <ul class="list-group">
+                <li *ngFor="let nom of cursos">{{nom}}</li>
+            </ul>
+        </section>
+
+    </section>
+
+    <!--
+    </section><li>Angular</li>
+    <li>CSS</li>
+    <li>vue.js</li>
+    <li>React</li>
+    <li>Python</li>
+    <liJavaScript</li>
+    --> 

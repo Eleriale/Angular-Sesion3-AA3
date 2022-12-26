@@ -2,16 +2,15 @@
     <section class="container">
 
         <section class="aa3"> 
-        
-                <h1 class="display-4"> FRAMEWORK ANGULAR</h1>
-            
+        <!--TITULO--> 
+                <h1 class="display-4"> FRAMEWORK ANGULAR</h1>            
             <br>
-
+        <!--CONTENIDO--> 
                 <section class="d-flex justify-content-center">
                     <input type="text" #nombrec>
                     <button type="button" class="btn btn-circle btn-xl" (click)="addCurso(nombrec.value)">Add</button>
                 </section>
-
+        <!--RESULTADO-->    
             <ul class="list-group">
                 <li *ngFor="let nom of cursos">{{nom}}</li>
             </ul>
